@@ -1,0 +1,52 @@
+/*=Custom
+-----------------------------------------------------------*/
+body {
+	margin: auto;
+	max-width: 1000px;
+	width: 100%
+}
+
+.site-header {
+	padding: 10px;
+}
+.logo {
+	padding: 20px;
+	font-size: 2em
+}
+
+.content-wrap {
+}
+
+.site-footer {
+	text-align: center
+}
+
+.nav-footer-wrap {
+	width: 100%
+}
+
+@media screen and (max-width: 600px) {
+	.nav-main-wrap {
+		display: none
+	}
+	.nav-mobile-wrap ul
+	{
+		
+	}
+}
+
+@media screen and (min-width: 601px) {
+	.nav-mobile-wrap {
+		display: none
+	}
+	
+	.nav-main-wrap ul, .nav-footer-wrap ul {
+		list-style: none;
+		display: inline
+	}
+	
+	.nav-main-wrap ul li, .nav-footer-wrap ul li {
+		display: inline;
+		padding: 0 1em
+	}
+}
